@@ -20,7 +20,23 @@ public class TestaMetodo {
         System.out.println(contaMarcela.saldo);
         System.out.println(contaFelipe.saldo);
 
-        contaFelipe.titular = "Felipe Rodrigues";
+        //contaFelipe.titular.nome = "Felipe Rodrigues";
         System.out.println(contaFelipe.titular);
+
+        // Associando um cliente a uma conta
+
+        Cliente rosangela = new Cliente();
+        rosangela.nome = "Rosangela Cardoso";
+        rosangela.cpf = "333.333.333-36";
+        rosangela.profissao = "Scrum Master";
+        Conta contaRosangela = new Conta();
+        contaRosangela.saldo = 10000;
+        contaRosangela.titular = rosangela;
+        contaRosangela.titular.nome = "Outro nome";
+        System.out.println(contaRosangela.titular.nome);
+        System.out.println(contaRosangela.titular.cpf);
+        System.out.println(contaRosangela.titular.profissao);
+        System.out.println(contaRosangela.titular);
+
     }
 }

@@ -5,7 +5,7 @@ public class CriaConta {
         primeiraConta.saldo = 200.00;
         primeiraConta.agencia = 1145;
         primeiraConta.numeroConta = 96910;
-        primeiraConta.titular = "Felipe Rodrigues";
+        //primeiraConta.titular = "Felipe Rodrigues";
 
         System.out.println(primeiraConta.saldo);
 
