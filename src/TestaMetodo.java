@@ -1,7 +1,7 @@
 public class TestaMetodo {
 
     public static void main(String[] args) {
-        Conta contaFelipe = new Conta();
+        Conta contaFelipe = new Conta(1212, 1212);
         contaFelipe.deposita(100);
         contaFelipe.deposita(150);
         System.out.println(contaFelipe.getSaldo());
@@ -9,9 +9,9 @@ public class TestaMetodo {
         System.out.println(contaFelipe.getSaldo());
         System.out.println(conseguiuSacar);
 
-        Conta contaMarcela = new Conta();
+        Conta contaMarcela = new Conta(1212, 12121);
         contaMarcela.deposita(1000);
-        boolean sucesso = contaMarcela.transfere(3000, contaFelipe);
+        boolean sucesso = contaMarcela.transfere(100, contaFelipe);
         if(sucesso){
             System.out.println("Transferencia feita com Sucesso!");
         }else{
@@ -31,7 +31,7 @@ public class TestaMetodo {
         rosangela.setNome("Rosangela Cardoso");
         rosangela.setCpf("333.333.333-36");
         rosangela.setProfissao("Scrum Master");
-        Conta contaRosangela = new Conta();
+        Conta contaRosangela = new Conta(1212, 12121);
         contaRosangela.deposita(10000);
         contaRosangela.setTitular(rosangela);
         System.out.println(contaRosangela.getTitular().getNome());
@@ -40,6 +40,8 @@ public class TestaMetodo {
         System.out.println(contaRosangela.getTitular().getCpf());
         System.out.println(contaRosangela.getTitular().getProfissao());
         System.out.println(contaRosangela.getTitular());
+
+        System.out.println("Total de contas: " + Conta.getTotal());
 
     }
 }

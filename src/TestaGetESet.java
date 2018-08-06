@@ -1,7 +1,7 @@
 public class TestaGetESet {
 
     public static void main(String[] args) {
-        Conta conta = new Conta();
+        Conta conta = new Conta(1212, 12121);
         conta.setAgencia(1222);
         conta.setNumeroConta(96980);
         System.out.println(conta.getAgencia());
@@ -27,6 +27,8 @@ public class TestaGetESet {
         System.out.println(conta.getTitular().getCpf());
         conta.getTitular().setProfissao("QA");
         System.out.println(conta.getTitular().getProfissao());
+
+        System.out.println("Total de contas: " + Conta.getTotal());
 
     }
 }
