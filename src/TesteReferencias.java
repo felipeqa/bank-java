@@ -1,21 +1,19 @@
-import javax.sound.midi.Soundbank;
-
 public class TesteReferencias {
 
     public static void main(String[] args) {
 
         Conta primeiraConta = new Conta();
-        primeiraConta.saldo = 300;
+        primeiraConta.deposita(300);
 
-        System.out.println("Saldo da primeira " + primeiraConta.saldo);
+        System.out.println("Saldo da primeira " + primeiraConta.getSaldo());
 
         //apontar duas referencias para o mesmo objeto
         Conta segundaConta = primeiraConta;
-        System.out.println("Saldo da segunda " + segundaConta.saldo);
+        System.out.println("Saldo da segunda " + segundaConta.getSaldo());
 
-        segundaConta.saldo += 100;
+        segundaConta.deposita(100);
 
-        System.out.println("Saldo da primeira " + primeiraConta.saldo);
+        System.out.println("Saldo da primeira " + primeiraConta.getSaldo());
 
         Conta terceiraConta = new Conta();
 
@@ -30,7 +28,7 @@ public class TesteReferencias {
         }else{
             System.out.println("São referencias diferentes");
             System.out.println("Primeira conta referencia " + primeiraConta );
-            System.out.println("Segunda conta referencia" + segundaConta);
+            System.out.println("Segunda conta referencia " + segundaConta);
             System.out.println("Terceira conta referencia " + terceiraConta);
         }
     }
