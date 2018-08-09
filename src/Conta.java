@@ -1,6 +1,7 @@
 import org.jetbrains.annotations.Contract;
 
-public class Conta {
+// transformando a classe Conta em abstract
+public abstract class Conta {
 
     private double saldo;
     private int agencia;
@@ -31,6 +32,7 @@ public class Conta {
 
     // usando dois construtores, caso inicialize assim faça isso
     public Conta(){
+        //usando o construtor public Conta(int agencia, int numeroConta){
         this(2000, 30000);
     }
 
@@ -55,14 +57,7 @@ public class Conta {
         }
     }
 
-    public boolean transfere(double valor, Conta destino){
-        if(this.saldo >= valor && valor > 0){
-            this.saca(valor);
-            destino.deposita(valor);
-            return true;
-        }
-        return false;
-    }
+    public abstract boolean transfere(double valor, Conta destino);
 
     public double getSaldo(){
         return this.saldo;

@@ -1,7 +1,9 @@
 public class TestaMetodo {
 
     public static void main(String[] args) {
-        Conta contaFelipe = new Conta(1212, 1212);
+
+        //Criando um objeto do tipo ContaPoupanca com a referencia da Conta
+        Conta contaFelipe = new ContaPoupanca(1212, 1212);
         contaFelipe.deposita(100);
         contaFelipe.deposita(150);
         System.out.println(contaFelipe.getSaldo());
@@ -9,7 +11,8 @@ public class TestaMetodo {
         System.out.println(contaFelipe.getSaldo());
         System.out.println(conseguiuSacar);
 
-        Conta contaMarcela = new Conta(1212, 12121);
+        //Criando um objeto do tipo ContaPoupanca com a referencia da Conta
+        Conta contaMarcela = new ContaPoupanca(1212, 12121);
         contaMarcela.deposita(1000);
         boolean sucesso = contaMarcela.transfere(100, contaFelipe);
         if(sucesso){
@@ -31,7 +34,9 @@ public class TestaMetodo {
         rosangela.setNome("Rosangela Cardoso");
         rosangela.setCpf("333.333.333-36");
         rosangela.setProfissao("Scrum Master");
-        Conta contaRosangela = new Conta(1212, 12121);
+
+        //Criando um objeto do tipo ContaCorrente com a referencia da Conta
+        Conta contaRosangela = new ContaCorrente(1212, 12121);
         contaRosangela.deposita(10000);
         contaRosangela.setTitular(rosangela);
         System.out.println(contaRosangela.getTitular().getNome());

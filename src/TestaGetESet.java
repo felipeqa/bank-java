@@ -1,7 +1,8 @@
 public class TestaGetESet {
 
     public static void main(String[] args) {
-        Conta conta = new Conta(1212, 12121);
+        //Criando um objeto do tipo ContaCorrente com a referencia da Conta
+        Conta conta = new ContaCorrente(1212, 12121);
         conta.setAgencia(1222);
         conta.setNumeroConta(96980);
         System.out.println(conta.getAgencia());

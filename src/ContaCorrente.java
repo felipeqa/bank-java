@@ -7,7 +7,17 @@ public class ContaCorrente extends Conta {
 
     @Override
     public boolean saca(double valor) {
-        double valorASacar = valor + 0.2;
+        double valorASacar = valor;
         return super.saca(valorASacar);
+    }
+
+    public boolean transfere(double valor, Conta destino){
+        if(super.getSaldo() >= valor && valor > 0){
+            double taxa = 0.5;
+            super.saca(valor + taxa);
+            destino.deposita(valor);
+            return true;
+        }
+        return false;
     }
 }

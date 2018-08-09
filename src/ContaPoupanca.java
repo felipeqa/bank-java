@@ -5,4 +5,14 @@ public class ContaPoupanca extends Conta {
         super(agencia, numeroConta);
     }
 
+    public boolean transfere(double valor, Conta destino){
+        if(this.getSaldo() >= valor && valor > 0){
+            double taxa = 0.25;
+            this.saca(valor + taxa);
+            destino.deposita(valor);
+            return true;
+        }
+        return false;
+    }
+
 }

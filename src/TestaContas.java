@@ -7,11 +7,14 @@ public class TestaContas {
 
         ContaPoupanca cp = new ContaPoupanca(7878, 9898);
         cp.deposita(200);
+        System.out.println("CC antes " + cc.getSaldo());
+        System.out.println("CP antes " + cp.getSaldo());
 
         cc.transfere(10, cp);
+        cp.transfere(20, cc);
 
-        System.out.println("CC " + cc.getSaldo());
-        System.out.println("CP " + cp.getSaldo());
+        System.out.println("CC depois " + cc.getSaldo());
+        System.out.println("CP depois " + cp.getSaldo());
 
 
     }

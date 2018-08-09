@@ -2,7 +2,8 @@ public class TestaValores {
 
     public static void main(String[] args) {
 
-        Conta conta = new Conta(1313, 12458);
+        //Criando um objeto do tipo ContaPupanca com a referencia da Conta
+        Conta conta = new ContaPoupanca(1313, 12458);
         System.out.println("Agencia: " + conta.getAgencia() + " Conta: " + conta.getNumeroConta());
     }
 

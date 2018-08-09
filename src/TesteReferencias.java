@@ -2,7 +2,8 @@ public class TesteReferencias {
 
     public static void main(String[] args) {
 
-        Conta primeiraConta = new Conta(1212, 12121);
+        //Criando um objeto do tipo ContaCorrente com a referencia da Conta
+        Conta primeiraConta = new ContaCorrente(1212, 12121);
         primeiraConta.deposita(300);
 
         System.out.println("Saldo da primeira " + primeiraConta.getSaldo());
@@ -15,7 +16,8 @@ public class TesteReferencias {
 
         System.out.println("Saldo da primeira " + primeiraConta.getSaldo());
 
-        Conta terceiraConta = new Conta(1212, 12121);
+        //Criando um objeto do tipo ContaCorrente com a referencia da Conta
+        Conta terceiraConta = new ContaCorrente(1212, 12121);
 
         // comparando as referencias iguais
         if(primeiraConta == segundaConta){
