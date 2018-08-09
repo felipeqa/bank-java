@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.Contract;
+
 public class Conta {
 
     private double saldo;
@@ -19,9 +21,12 @@ public class Conta {
         //ou essa abordagem
         this.numeroConta = numeroConta;
         this.agencia = agencia;
+        //this.saldo = 100;
 
         //Contando o total de vezes que a classe foi inicializada
         Conta.total ++;
+        System.out.println("O total de contas é " + Conta.total);
+        System.out.println("Estou criando uma conta " + this.numeroConta);
     }
 
     // usando dois construtores, caso inicialize assim faça isso
@@ -68,6 +73,10 @@ public class Conta {
     }
 
     public void setNumeroConta(int numeroConta){
+        if(numeroConta <= 0){
+            System.out.println("Nao pode valor menor igual a 0");
+            return;
+        }
         this.numeroConta = numeroConta;
     }
 
@@ -76,6 +85,9 @@ public class Conta {
     }
 
     public void setAgencia(int agencia){
+        if(agencia <= 0) {
+            System.out.println("Nao pode valor menor igual a 0");
+            return;}
         this.agencia = agencia;
     }
 
