@@ -1,4 +1,4 @@
-public class ContaCorrente extends Conta {
+public class ContaCorrente extends Conta implements Tributavel {
 
     //Invocando o construtor da super classe
     public ContaCorrente(int agencia, int numeroConta){
@@ -19,5 +19,10 @@ public class ContaCorrente extends Conta {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public double getValorImposto() {
+        return super.getSaldo() * 0.01;
     }
 }

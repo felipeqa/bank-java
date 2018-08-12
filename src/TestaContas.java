@@ -1,6 +1,12 @@
+import java.sql.SQLOutput;
+
 public class TestaContas {
 
     public static void main(String[] args) {
+
+        SeguroVida sv = new SeguroVida();
+
+        CalculadorImposto imposto = new CalculadorImposto();
 
         ContaCorrente cc = new ContaCorrente(1212, 2323);
         cc.deposita(100);
@@ -15,6 +21,15 @@ public class TestaContas {
 
         System.out.println("CC depois " + cc.getSaldo());
         System.out.println("CP depois " + cp.getSaldo());
+
+        System.out.println(cc.getValorImposto());
+        System.out.println(sv.getValorImposto());
+
+
+
+
+        System.out.println(imposto.calculaTributo(cc));
+        System.out.println( imposto.calculaTributo(sv));
 
 
     }
