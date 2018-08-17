@@ -13,6 +13,14 @@ public abstract class Conta {
     public Conta(int agencia, int numeroConta){
 
         System.out.println("Criando uma conta!!!");
+
+        if(agencia < 1) {
+            throw new IllegalArgumentException("Agencia inválida");
+        }
+
+        if(numeroConta < 1) {
+            throw new IllegalArgumentException("Numero da conta inválido");
+        }
         //podemos usar essa abordagem
         this.setNumeroConta(numeroConta);
         this.setAgencia(agencia);

@@ -2,7 +2,7 @@ public class CriaConta {
     public static void main(String[] args) {
 
         //Criando um objeto do tipo ContaCorrente com a referencia da Conta
-        Conta primeiraConta = new ContaCorrente(1212, 12121);
+        Conta primeiraConta = new ContaCorrente(-1212, 12121);
         primeiraConta.deposita(200.00) ;
         primeiraConta.setAgencia(1145);
         primeiraConta.setNumeroConta(96910);
