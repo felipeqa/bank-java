@@ -14,8 +14,14 @@ public class CriaConta {
         System.out.println(primeiraConta.getSaldo());
 
         //Criando um objeto do tipo ContaPoupanca com a referencia da Conta
-        Conta segundaConta = new ContaPoupanca(1212, 12121);
+        ContaPoupanca segundaConta = new ContaPoupanca(1212, 12121);
         segundaConta.deposita(500);
+        //exception Gerada  na tentativa de sacar
+        try {
+            segundaConta.sacaPoupanca(501);
+        } catch (SaldoInsuficienteExceptionChecked ex){
+            System.out.println(ex.getMessage());
+        }
         segundaConta.setAgencia(1035);
         segundaConta.setNumeroConta(10109);
         //segundaConta.titular = "Rosangela Santos";

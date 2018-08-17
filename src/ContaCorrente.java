@@ -6,19 +6,19 @@ public class ContaCorrente extends Conta implements Tributavel {
     }
 
     @Override
-    public boolean saca(double valor) {
+    public void saca(double valor) {
         double valorASacar = valor;
-        return super.saca(valorASacar);
+        super.saca(valorASacar);
     }
 
-    public boolean transfere(double valor, Conta destino){
-        if(super.getSaldo() >= valor && valor > 0){
-            double taxa = 0.5;
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteExceptionChecked{
+        double taxa = 0.5;
+        if(valor > super.getSaldo()){
+            throw new SaldoInsuficienteExceptionChecked("Saldo Insuficiente");
+        }else{
             super.saca(valor + taxa);
             destino.deposita(valor);
-            return true;
         }
-        return false;
     }
 
     @Override

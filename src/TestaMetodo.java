@@ -3,25 +3,32 @@ public class TestaMetodo {
     public static void main(String[] args) {
 
         //Criando um objeto do tipo ContaPoupanca com a referencia da Conta
-        Conta contaFelipe = new ContaPoupanca(1212, 1212);
+        Conta contaFelipe = new ContaPoupanca(1212, 3332);
         contaFelipe.deposita(100);
         contaFelipe.deposita(150);
         System.out.println(contaFelipe.getSaldo());
-        boolean conseguiuSacar = contaFelipe.saca(10);
+        contaFelipe.saca(10);
         System.out.println(contaFelipe.getSaldo());
-        System.out.println(conseguiuSacar);
+
 
         //Criando um objeto do tipo ContaPoupanca com a referencia da Conta
         Conta contaMarcela = new ContaPoupanca(1212, 12121);
         contaMarcela.deposita(1000);
-        boolean sucesso = contaMarcela.transfere(100, contaFelipe);
-        if(sucesso){
+        double saldoMarcelaAntesDaTranferencia = contaMarcela.getSaldo();
+
+        try{
+            contaMarcela.transfere(100, contaFelipe);
+        }catch (SaldoInsuficienteExceptionChecked ex){
+            System.out.println(ex.getMessage());
+        }
+
+        if(saldoMarcelaAntesDaTranferencia > contaMarcela.getSaldo()){
             System.out.println("Transferencia feita com Sucesso!");
         }else{
             System.out.println("Saldo insuficiente!");
         }
-        System.out.println(contaMarcela.getSaldo());
-        System.out.println(contaFelipe.getSaldo());
+        System.out.println("Saldo Marcela: " + contaMarcela.getSaldo());
+        System.out.println("Saldo Felipe" + contaFelipe.getSaldo());
 
         // inicializando titular => classe cliente
         contaFelipe.setTitular(new Cliente());
@@ -36,7 +43,7 @@ public class TestaMetodo {
         rosangela.setProfissao("Scrum Master");
 
         //Criando um objeto do tipo ContaCorrente com a referencia da Conta
-        Conta contaRosangela = new ContaCorrente(1212, 12121);
+        Conta contaRosangela = new ContaCorrente(1212, 4578);
         contaRosangela.deposita(10000);
         contaRosangela.setTitular(rosangela);
         System.out.println(contaRosangela.getTitular().getNome());

@@ -16,8 +16,13 @@ public class TestaContas {
         System.out.println("CC antes " + cc.getSaldo());
         System.out.println("CP antes " + cp.getSaldo());
 
-        cc.transfere(10, cp);
-        cp.transfere(20, cc);
+        try{
+            cc.transfere(10, cp);
+            //aqui estoura um exception
+            cc.transfere(1088, cp);
+        } catch(SaldoInsuficienteExceptionChecked ex){
+            System.out.println(ex.getMessage());
+        }
 
         System.out.println("CC depois " + cc.getSaldo());
         System.out.println("CP depois " + cp.getSaldo());

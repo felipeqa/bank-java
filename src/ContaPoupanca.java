@@ -5,14 +5,24 @@ public class ContaPoupanca extends Conta {
         super(agencia, numeroConta);
     }
 
-    public boolean transfere(double valor, Conta destino){
-        if(this.getSaldo() >= valor && valor > 0){
-            double taxa = 0.25;
-            this.saca(valor + taxa);
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteExceptionChecked{
+        double taxa = 0.25;
+        if(valor + taxa  > super.getSaldo()){
+            throw new SaldoInsuficienteExceptionChecked("Saldo Insuficiente");
+        }else{
+            super.saca(valor + taxa);
             destino.deposita(valor);
-            return true;
         }
-        return false;
+    }
+
+    public void sacaPoupanca(double valor) throws SaldoInsuficienteExceptionChecked{
+        if(super.getSaldo() < valor){
+            throw new SaldoInsuficienteExceptionChecked("Erro saldo insuficiente");
+        } else {
+            double saldoAtual = super.getSaldo();
+            super.saca(saldoAtual);
+
+        }
     }
 
 }

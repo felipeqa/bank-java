@@ -1,5 +1,3 @@
-import org.jetbrains.annotations.Contract;
-
 // transformando a classe Conta em abstract
 public abstract class Conta {
 
@@ -47,17 +45,15 @@ public abstract class Conta {
 
     }
 
-    public boolean saca(double valor){
-        if(this.saldo >= valor && valor > 0){
-            // this.saldo = this.saldo - valor;
+    public void saca(double valor){
+        if(this.saldo < valor){
+            throw new SaldoInsuficienteExceptionUnchecked("Deu muito Ruim");
+        } else {
             this.saldo -= valor;
-            return true;
-        }else{
-            return false;
         }
     }
 
-    public abstract boolean transfere(double valor, Conta destino);
+    public abstract void transfere(double valor, Conta destino) throws SaldoInsuficienteExceptionChecked;
 
     public double getSaldo(){
         return this.saldo;
