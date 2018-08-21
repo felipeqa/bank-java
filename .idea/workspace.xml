@@ -3,7 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="818729de-b178-4060-a6fc-01248db9149a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/CalculadorImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/CriaConta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/SaldoInsuficienteExceptionChecked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/SaldoInsuficienteExceptionUnchecked.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/SeguroVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaGetESet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaMetodo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TestaValores.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TesteReferencias.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/TesteSacaNegativo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bank/Tributavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CriaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/CriaConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaGetESet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaGetESet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaMetodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaMetodo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaSaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaSaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaTributaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaValores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaValores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteReferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TesteReferencias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TesteSacaNegativo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TesteSacaNegativo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/CalculadorImposto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/SaldoInsuficienteExceptionChecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/SaldoInsuficienteExceptionUnchecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/SeguroVida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modelo/Tributavel.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,49 +51,67 @@
     <session id="-1305054224">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="4" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="160" />
+          <entry key="JAVA" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="9" />
-          <entry key="java" value="7441" />
+          <entry key="dummy" value="33" />
+          <entry key="java" value="7684" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7441" />
-          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="JAVA" value="7684" />
+          <entry key="PLAIN_TEXT" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="160" />
+          <entry key="java" value="182" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Conta.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaEspecial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/CriaConta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -89,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/TesteSacaNegativo.java" />
         <option value="$PROJECT_DIR$/src/TestaSaca.java" />
         <option value="$PROJECT_DIR$/src/SaldoInsuficienteException.java" />
-        <option value="$PROJECT_DIR$/src/CriaConta.java" />
         <option value="$PROJECT_DIR$/src/SaldoInsuficienteExceptionChecked.java" />
         <option value="$PROJECT_DIR$/src/SaldoInsuficienteExceptionUnchecked.java" />
         <option value="$PROJECT_DIR$/src/ContaPoupanca.java" />
@@ -97,6 +149,20 @@
         <option value="$PROJECT_DIR$/src/TestaMetodo.java" />
         <option value="$PROJECT_DIR$/src/TestaContas.java" />
         <option value="$PROJECT_DIR$/src/Conta.java" />
+        <option value="$PROJECT_DIR$/src/CriaConta.java" />
+        <option value="$PROJECT_DIR$/src/teste/CriaConta.java" />
+        <option value="$PROJECT_DIR$/src/teste/TestaContas.java" />
+        <option value="$PROJECT_DIR$/src/teste/TestaTributaveis.java" />
+        <option value="$PROJECT_DIR$/src/modelo/CalculadorImposto.java" />
+        <option value="$PROJECT_DIR$/src/banco/modelo/CalculadorImposto.java" />
+        <option value="$PROJECT_DIR$/src/bytebank/banco/modelo/CalculadorImposto.java" />
+        <option value="$PROJECT_DIR$/src/com/bytebank/banco/modelo/CalculadorImposto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/CalculadorImposto.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/test/CriaConta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/teste/CriaConta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaCorrente.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaEspecial.java" />
       </list>
     </option>
   </component>
@@ -110,11 +176,10 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,26 +190,70 @@
             <path>
               <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
               <item name="Bank" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Bank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Bank" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Bank" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Bank" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Bank" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Bank" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Bank" type="616d4139:PackageViewModuleNode" />
+              <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="Bank" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Bank" type="616d4139:PackageViewModuleNode" />
+              <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
+              <item name="especial" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534472108730" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534812858748" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="banco" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.bytebank.banco.especial" />
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -159,56 +268,74 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CriaConta">
+  <component name="RunManager" selected="Application.CriaConta (1)">
     <configuration name="CriaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CriaConta" />
+      <option name="MAIN_CLASS_NAME" value="com.bytebank.banco.teste.CriaConta" />
+      <module name="Bank" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CriaConta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.teste.CriaConta" />
+      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytebank.banco.teste.TestaContas" />
       <module name="Bank" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestaContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaContas" />
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.teste.TestaContas" />
       <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestaMetodo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaMetodo" />
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.teste.TestaMetodo" />
       <module name="Bank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestaSaca" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TestaSaca" />
-      <module name="Bank" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteSacaNegativo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesteSacaNegativo" />
-      <module name="Bank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.bytebank.banco.teste.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TesteSacaNegativo" />
-      <item itemvalue="Application.TestaSaca" />
       <item itemvalue="Application.CriaConta" />
       <item itemvalue="Application.TestaContas" />
-      <item itemvalue="Application.TestaMetodo" />
+      <item itemvalue="Application.CriaConta (1)" />
+      <item itemvalue="Application.TestaMetodo (1)" />
+      <item itemvalue="Application.TestaContas (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CriaConta" />
+        <item itemvalue="Application.CriaConta (1)" />
+        <item itemvalue="Application.TestaContas (1)" />
+        <item itemvalue="Application.TestaMetodo (1)" />
         <item itemvalue="Application.TestaContas" />
-        <item itemvalue="Application.TestaMetodo" />
-        <item itemvalue="Application.TestaSaca" />
-        <item itemvalue="Application.TesteSacaNegativo" />
+        <item itemvalue="Application.CriaConta" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +356,7 @@
     <frame x="1416" y="-11" width="2511" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1729598" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17417783" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -237,13 +364,13 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3410042" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34029227" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3294979" />
@@ -289,77 +416,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tributavel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SeguroVida.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SeguroVida.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CalculadorImposto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaTributaveis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaValores.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaValores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteReferencias.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TesteReferencias.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TesteSacaNegativo.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TesteSacaNegativo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaGetESet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaSaca.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaSaca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaldoInsuficienteExceptionUnchecked.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SaldoInsuficienteExceptionUnchecked.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
@@ -370,7 +462,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SaldoInsuficienteExceptionChecked.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/SaldoInsuficienteExceptionChecked.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
@@ -381,14 +473,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaPoupanca.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaPoupanca.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ContaCorrente.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/ContaCorrente.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="95" selection-start-line="13" selection-start-column="95" selection-end-line="13" selection-end-column="95" />
@@ -401,31 +493,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CriaConta.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Cliente.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaContas.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaTributaveis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaMetodo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestaMetodo.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaContas.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        <state relative-caret-position="360">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Conta.java">
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Tributavel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/TestaGetESet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/CalculadorImposto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/teste/CriaConta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/modelo/Conta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/especial/ContaEspecial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
         </state>
       </provider>
     </entry>
