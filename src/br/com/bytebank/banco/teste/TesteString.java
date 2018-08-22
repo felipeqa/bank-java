@@ -27,10 +27,5 @@ public class TesteString {
         System.out.println(stringTrim);
         System.out.println("String contains FEL = "+ stringComEspaco.contains("FEL"));
         System.out.println("String contains fel = "+ stringComEspaco.contains("fel"));
-
-
-
-
-
     }
 }
