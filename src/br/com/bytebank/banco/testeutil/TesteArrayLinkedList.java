@@ -5,14 +5,14 @@ import br.com.bytebank.banco.modelo.ContaCorrente;
 import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
-public class TesteGenerics {
+public class TesteArrayLinkedList {
 
     public static void main(String[] args) {
-        //Generics <Conta>
-        ArrayList<Conta> lista = new ArrayList<Conta>();
-        //Generics <String>
-        ArrayList<String> nomes = new ArrayList<String>();
+        //Generics <>
+        List<Conta> lista = new LinkedList<Conta>();
 
         Conta conta1 = new ContaPoupanca(1212, 3636379);
         Conta conta2 = new ContaCorrente(4545,369852);

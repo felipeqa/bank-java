@@ -6,11 +6,13 @@ import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 import java.sql.SQLOutput;
 import java.util.ArrayList;
+import java.util.List;
 
 public class TesteArrayListEquals {
 
     public static void main(String[] args) {
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        //Generics <>
+        List<Conta> lista = new ArrayList<Conta>();
 
 //        Conta cc1 = new ContaCorrente(22, 22);
 //        Conta cc2 = new ContaCorrente(22, 22);
