@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class Teste {
+public class TesteClasseAnonima {
 
     public static void main(String[] args) {
         Conta conta1 = new ContaCorrente(22,33);
@@ -35,11 +35,6 @@ public class Teste {
         conta4.setTitular(cliente4);
         conta4.deposita(222.0);
 
-//        conta1.deposita(333);
-//        conta2.deposita(444);
-//        conta3.deposita(111);
-//        conta4.deposita(222);
-
         List<Conta> lista = new ArrayList<>();
 
         lista.add(conta1);
@@ -47,21 +42,44 @@ public class Teste {
         lista.add(conta3);
         lista.add(conta4);
 
-        for(Conta conta : lista) System.out.println(conta);
+        lista.sort(new Comparator<Conta>(){
 
-        System.out.println("-------------------");
+                @Override
+                public int compare(Conta c1, Conta c2) {//classe anonima
+                    if(c1.getNumeroConta() < c2.getNumeroConta()){
+                        return -1;
+                    }
+                    if(c1.getNumeroConta() > c2.getNumeroConta()){
+                        return 1;
+                    }
+                    return 0;
+                }
 
-//        NumeroDaContaComparador comparador = new NumeroDaContaComparador();
-//        lista.sort(comparador);
+            }
+        );
 
-        TitularDaContaComparator comparadorDeTitular = new TitularDaContaComparator();
-        lista.sort(comparadorDeTitular);
+        for(Conta conta : lista) System.out.println("Cliente, " + conta.getTitular().getNome() + " " + conta);
+
+        System.out.println("**********************************");
+
+        Comparator<Conta> comp = new Comparator<Conta>(){
+
+            @Override
+            public int compare(Conta c1, Conta c2) {
+                String titularOne = c1.getTitular().getNome();
+                String titularTwo = c2.getTitular().getNome();
+
+                return titularOne.compareTo(titularTwo);
+            }
+        };
+
+        lista.sort(comp);
 
         for(Conta conta : lista) System.out.println("Cliente, " + conta.getTitular().getNome() + " " + conta);
     }
 }
 
-class NumeroDaContaComparador implements Comparator<Conta>{
+class NumeroDaContaComparador2 implements Comparator<Conta>{
 
     @Override
     public int compare(Conta c1, Conta c2) {
@@ -76,7 +94,7 @@ class NumeroDaContaComparador implements Comparator<Conta>{
 
 }
 
-class TitularDaContaComparator implements Comparator<Conta>{
+class TitularDaContaComparator2 implements Comparator<Conta>{
 
     @Override
     public int compare(Conta c1, Conta c2) {
