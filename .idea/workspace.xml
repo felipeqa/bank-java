@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="818729de-b178-4060-a6fc-01248db9149a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteOrdenacao.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,19 +34,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="215" />
+          <entry key="JAVA" value="218" />
           <entry key="Manifest" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="63" />
-          <entry key="java" value="11528" />
+          <entry key="java" value="11753" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11528" />
+          <entry key="JAVA" value="11753" />
           <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
@@ -55,7 +54,7 @@
         <counts>
           <entry key="MF" value="1" />
           <entry key="class" value="1" />
-          <entry key="java" value="215" />
+          <entry key="java" value="218" />
         </counts>
       </usages-collector>
     </session>
@@ -96,11 +95,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteClasseAnonima.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+            <state relative-caret-position="-146" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -120,8 +126,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Tributavel.java" />
-        <option value="$PROJECT_DIR$/src/SeguroVida.java" />
         <option value="$PROJECT_DIR$/src/CalculadorImposto.java" />
         <option value="$PROJECT_DIR$/src/TestaTributaveis.java" />
         <option value="$PROJECT_DIR$/src/TesteSacaNegativo.java" />
@@ -171,6 +175,8 @@
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/Teste.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteOrdenacao.java" />
         <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteClasseAnonima.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaTwo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaOne.java" />
       </list>
     </option>
   </component>
@@ -240,20 +246,6 @@
               <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
               <item name="testeutil" type="1f31426a:PackageElementNode" />
             </path>
-            <path>
-              <item name="Bank" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Bank" type="616d4139:PackageViewModuleNode" />
-              <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
-              <item name="testeutil" type="1f31426a:PackageElementNode" />
-              <item name="TesteClasseAnonima.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Bank" type="58d84e3e:PackageViewProjectNode" />
-              <item name="Bank" type="616d4139:PackageViewModuleNode" />
-              <item name="br.com.bytebank.banco" type="1f31426a:PackageElementNode" />
-              <item name="testeutil" type="1f31426a:PackageElementNode" />
-              <item name="TesteOrdenacao.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -264,7 +256,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536713428065" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536715190617" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -298,7 +290,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TesteClasseAnonima">
+  <component name="RunManager" selected="Application.TesteLambdaOne">
     <configuration name="TestaMetodo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.teste.TestaMetodo" />
       <module name="Bank" />
@@ -351,8 +343,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteOrdenacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testeutil.TesteOrdenacao" />
+    <configuration name="TesteLambdaOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testeutil.TesteLambdaOne" />
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
@@ -364,8 +356,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteOutrosWrapper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testeutil.TesteOutrosWrapper" />
+    <configuration name="TesteOrdenacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.bytebank.banco.testeutil.TesteOrdenacao" />
       <module name="Bank" />
       <extension name="coverage">
         <pattern>
@@ -380,18 +372,18 @@
     <list>
       <item itemvalue="Application.TestaMetodo" />
       <item itemvalue="Application.Teste" />
-      <item itemvalue="Application.TesteOutrosWrapper" />
       <item itemvalue="Application.TesteArrayListEquals" />
       <item itemvalue="Application.TesteOrdenacao" />
       <item itemvalue="Application.TesteClasseAnonima" />
+      <item itemvalue="Application.TesteLambdaOne" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteLambdaOne" />
         <item itemvalue="Application.TesteClasseAnonima" />
         <item itemvalue="Application.TesteOrdenacao" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.TesteArrayListEquals" />
-        <item itemvalue="Application.TesteOutrosWrapper" />
       </list>
     </recent_temporary>
   </component>
@@ -430,13 +422,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4953309" visible="true" weight="0.32740587" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4949249" visible="true" weight="0.32740587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49566954" weight="0.19329897" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50466913" side_tool="true" visible="true" weight="0.32740587" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953309" weight="0.19246861" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5050751" side_tool="true" weight="0.32740587" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498985" weight="0.32845187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -450,7 +442,7 @@
       <window_info anchor="right" x="0" y="0" width="577" height="892" id="Documentation" order="8" side_tool="true" weight="0.32967925" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18067397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.107186355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,18 +451,18 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4949249" visible="true" weight="0.32740587" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294979" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33891213" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4953309" weight="0.19246861" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5050751" side_tool="true" visible="true" weight="0.32740587" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294979" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.498985" weight="0.32845187" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" visible="true" weight="0.2496955" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.2496955" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2496955" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -777,8 +769,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteClasseAnonima.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="56" column="4" lean-forward="true" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
+        <state relative-caret-position="349">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/bytebank/banco/testeutil/TesteLambdaOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
         </state>
       </provider>
     </entry>
